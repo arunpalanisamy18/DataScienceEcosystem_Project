@@ -1,0 +1,22 @@
+# Virtual environment & Python caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Backups & temporary files
+*.backup
+*.bak
+README_PATCH.txt
+*.zip
+
+# Browser automation & test diagnostics
+.playwright-mcp/
+*_1440.png
+*_768.png
+
+# Generated simulation stress experiment traces
+reports/experiments/

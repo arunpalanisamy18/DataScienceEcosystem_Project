@@ -1,0 +1,6 @@
+Failure mode,Failures in test set,Detected,Recall
+TWF,10,2,0.2
+HDF,29,28,0.9655172413793104
+PWF,13,13,1.0
+OSF,16,16,1.0
+RNF,4,0,0.0

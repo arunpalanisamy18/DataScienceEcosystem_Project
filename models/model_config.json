@@ -1,0 +1,54 @@
+{
+    "model_name": "Gradient Boosting (tuned, engineered features)",
+    "features": [
+        "Type",
+        "Air temperature",
+        "Process temperature",
+        "Rotational speed",
+        "Torque",
+        "Tool wear"
+    ],
+    "engineered_features": [
+        "Temp difference",
+        "Power",
+        "Overstrain"
+    ],
+    "target": "Machine failure",
+    "dataset": "UCI AI4I 2020 Predictive Maintenance Dataset",
+    "threshold": 0.32,
+    "thresholds": {
+        "balanced": 0.32,
+        "high_recall": 0.05
+    },
+    "cost_ratio_fn_to_fp": 10.0,
+    "high_recall_target": 0.85,
+    "best_params": {
+        "subsample": 0.85,
+        "n_estimators": 100,
+        "min_samples_leaf": 5,
+        "max_depth": 3,
+        "learning_rate": 0.05
+    },
+    "train_range": {
+        "Air temperature": [
+            295.3,
+            304.5
+        ],
+        "Process temperature": [
+            305.7,
+            313.8
+        ],
+        "Rotational speed": [
+            1168.0,
+            2886.0
+        ],
+        "Torque": [
+            3.8,
+            76.6
+        ],
+        "Tool wear": [
+            0.0,
+            253.0
+        ]
+    }
+}

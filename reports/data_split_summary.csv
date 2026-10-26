@@ -1,0 +1,4 @@
+Split,Records,Failures,Failure rate (%)
+Train,6000,203,3.38
+Validation,2000,68,3.4
+Test,2000,68,3.4
